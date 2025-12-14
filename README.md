@@ -13,7 +13,7 @@
 
 ## Prerequisites
 
-- Python 3.9 or higher.
+- Python 3.10 or higher.
 - CUDA-compatible GPU (recommended for bfloat16; falls back to CPU but slower).
 - Stable internet for initial model download from Hugging Face.
 
