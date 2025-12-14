@@ -68,6 +68,13 @@ The demo launches at `http://localhost:7860` (or a public URL if using `share=Tr
    - Text: Model output with `Click(x, y)` coordinates.
    - Image: Annotated screenshot with a red ellipse at the predicted position.
 
+## Example Output Inference
+
+| Type         | Preview |
+|--------------|---------|
+| Input Image  | ![Input Image](https://huggingface.co/prithivMLmods/Herculis-CUA-GUI-Actioner-4B/resolve/main/example/example-image.png) |
+| Output Image | ![Output Image](https://huggingface.co/prithivMLmods/Herculis-CUA-GUI-Actioner-4B/resolve/main/example/output-image.webp) |
+
 ### Example Workflow
 - Upload a Hugging Face models page screenshot.
 - Prompt: "Locate the `microsoft/Fara-7B` model."
